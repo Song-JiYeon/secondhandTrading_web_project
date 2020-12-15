@@ -41,5 +41,5 @@ const productSchema = new Schema({
 
 mongooseAutoInc.initialize(mongoose.connection);
 productSchema.plugin(mongooseAutoInc.plugin, 'product');
-//productSchema.plugin(mongooseAutoInc.plugin, 'product');
+
 module.exports = mongoose.model('product', productSchema);

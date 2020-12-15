@@ -21,5 +21,5 @@ const userSchema = new Schema({
 
 mongooseAutoInc.initialize(mongoose.connection);
 userSchema.plugin(mongooseAutoInc.plugin, 'user');
-//productSchema.plugin(mongooseAutoInc.plugin, 'product');
+
 module.exports = mongoose.model('user', userSchema);

@@ -24,5 +24,5 @@ const reviewSchema = new Schema({
 
 mongooseAutoInc.initialize(mongoose.connection);
 reviewSchema.plugin(mongooseAutoInc.plugin, 'review');
-//productSchema.plugin(mongooseAutoInc.plugin, 'product');
+
 module.exports = mongoose.model('review', reviewSchema);
