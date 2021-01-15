@@ -68,7 +68,7 @@ class Write extends React.Component {
         return(
             <div className="contt">
                 <p className="tii">게시글 작성</p>
-                <form onSubmit={this.submitHandler}>
+                <form onSubmit={this.submitHandler} >
                     <div className="label">카테고리 <select name="category" className="box0">
                         <option value="의류">의류</option>
                         <option value="도서">도서</option>
