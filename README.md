@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# secondhandTrading_web_project
+- 2020-2 웹시스템설계 프로젝트
+------------
+## 프로젝트 주제 및 선정 배경
+### 중고거래 및 리뷰 공유 사이트
+> 최근 들어 중고거래에 대한 인식이 변화하면서 중고시장의 규모가 급격히 커졌고, 중고거래를 이용하는 사람들의 수가 점점 증가하고 있는 추세이다. 중고거래를 통해 사람들은 경제적으로 이익을 얻을 수 있을 뿐만 아니라, 중고물품의 재사용을 통해 환경보호 측면에서도 긍정적인 영향을 줄 수 있다. 그러나 종종 발생하는 중고거래 사기 사건으로 인해 중고거래 안전성에 대해 두려움을 갖고 있는 사람들도 존재한다.
+>
+> 따라서 경제적 및 환경보호적 측면에 도움을 주는 중고거래를 활성화시키고, 중고거래의 안전성에 대한 정보를 제공하고자 중고거래 및 리뷰 공유 사이트를 프로젝트 주제로 선정하였다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 세부 기능
+- 품목별 중고물품 정보 제공
 
-## Available Scripts
+  - 각각의 카테고리에 해당하는 중고물품 목록 및 해당 물품의 상세정보를 확인할 수 있다.
+- 중고물품 게시글 등록 기능 제공
+  
+  - 팔고자 하는 중고물품에 대한 글을 작성할 수 있으며, 자신이 작성한 게시글 편집 및 삭제가 가능하다.
+- 중고물품 찜 하기 기능 제공
+  
+  - 마음에 드는 중고물품에 대해 찜하기 버튼을 누르면, 위시리스트에서 찜한 중고물품의 목록을 확인할 수 있다. 
+- 중고거래 리뷰 게시판 기능 제공
+  
+  - 중고거래 리뷰 확인 및 게시글을 작성할 수 있고 게시글 작성시 중고거래 추천 또는 비추천에 대한 평가가 가능하며, 자신이 작성한 리뷰 글은 삭제가 가능하다.
+------------
+## 세부기능 활용 시나리오
+<img width="710" alt="세부기능활용시나리오" src="https://user-images.githubusercontent.com/55876471/113512739-fa34c380-95a0-11eb-9c01-f6cd7347efa4.jpg">
 
-In the project directory, you can run:
+------------
 
-### `npm start`
+## 구현 결과
+- 품목별 중고물품 정보 확인 기능
+![품목별 중고물품 정보 확인 기능](https://user-images.githubusercontent.com/55876471/113513230-952e9d00-95a3-11eb-81e7-ae85cec471ca.JPG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 중고물품 상세정보 확인 기능
+![중고물품 상세정보 확인 기능](https://user-images.githubusercontent.com/55876471/113513265-d7f07500-95a3-11eb-8bc5-7e089a260448.JPG)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- 중고물품 게시글 등록, 편집, 삭제 기능
+![중고물품 게시글 등록](https://user-images.githubusercontent.com/55876471/113513338-3b7aa280-95a4-11eb-9360-d7a81d80e881.JPG)
 
-### `npm test`
+- 중고물품 찜하기 기능
+![중고물품 찜하기 기능](https://user-images.githubusercontent.com/55876471/113513466-e4290200-95a4-11eb-8193-3bb61eca98d2.JPG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 중고거래 리뷰 게시글 작성 기능
+![중고거래 리뷰 게시글 작성 기능](https://user-images.githubusercontent.com/55876471/113513554-497cf300-95a5-11eb-9c08-313b5e1256ed.JPG)
 
-### `npm run build`
+- 중고거래 리뷰 공유 게시판 확인 기능
+![중고거래 리뷰 공유 게시판 확인 기능](https://user-images.githubusercontent.com/55876471/113513517-1e929f00-95a5-11eb-9f49-cff6d1ef9126.JPG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+------------
+## 운영 환경
+<img width="640" alt="운영환경" src="https://user-images.githubusercontent.com/55876471/113514332-df664d00-95a8-11eb-8172-8a914a56f43d.JPG">
